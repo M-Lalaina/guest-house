@@ -49,3 +49,9 @@ header li a {
   font-weight: bold;
   float: left;
 }
+/* ..............MODIFICATION DE L'IMAGE PRINCIPALE..................... */
+
+#imageprincipale {
+  padding-top: 60px;
+  background: url(photos/house.jpg) no-repeat 50% 50%;
+}
