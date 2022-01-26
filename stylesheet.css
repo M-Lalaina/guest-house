@@ -71,9 +71,71 @@ h1 {
   width: 25%;
   margin: -3px auto;
   background-color: #fffae1;
+  box-shadow: 1px 3px 2px black;
 }
 h3 {
   text-align: center;
   color: antiquewhite;
   font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* ..........PRESENTATION......... */
+#presentation {
+  background-color: #fffae1;
+  padding: 10px 0px 100px 0px;
+}
+#text1 {
+  padding: 0px 20%;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.imgprestations h4 {
+  font-family: "dancing script", arial;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imgprestations img {
+  border-radius: 20px;
+  box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.6);
+}
+.imgprestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+/* .................NEXT............. */
+#next {
+  height: 1400px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+}
+#next h2 {
+  padding-top: 60px;
+}
+#ocean {
+  background: url(photos/ocean.jpg);
+}
+#hôtel {
+  background: url(photos/living-room.jpg);
+}
+#phare {
+  background: url(photos/phare.jpg);
+}
+#restaurant {
+  background: url(photos/restaurant.jpg);
+}
+#next li {
+  margin: 65px 100px 0 100px;
+  height: 500px;
+  width: 50%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
 }
