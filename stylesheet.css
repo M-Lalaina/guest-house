@@ -119,23 +119,11 @@ h3 {
 #next h2 {
   padding-top: 60px;
 }
-#ocean {
-  background: url(photos/ocean.jpg);
+.imgnext{
+  width: 20%;
+  padding: 50px 20%;
 }
-#hôtel {
-  background: url(photos/living-room.jpg);
-}
-#phare {
-  background: url(photos/phare.jpg);
-}
-#restaurant {
-  background: url(photos/restaurant.jpg);
 }
 #next li {
-  margin: 65px 100px 0 100px;
-  height: 500px;
-  width: 50%;
-  max-width: 550px;
-  float: left;
-  box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+  
 }
