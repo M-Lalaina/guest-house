@@ -1,7 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script:wght@600&display=swap");
-
+@font-face {
+  font-family: "DancingScript";
+  src: url(polices/DancingScript-Regular.ttf);
+}
+@font-face {
+  font-family: "Advent_Pro";
+  src: url(polices/AdventPro-Regular.ttf);
+}
 body {
-  font-family: "Advent Pro", sans-serif;
+  font-family: "Advent_Pro", sans-serif;
   padding: 0%;
   margin: 0%;
 }
@@ -22,9 +28,7 @@ a {
   text-decoration: none;
   color: black;
 }
-
 /* .....................NAVBAR.................. */
-
 nav {
   overflow: hidden;
   background-color: #fffae1;
@@ -32,12 +36,10 @@ nav {
   width: 100%;
   opacity: 0.9;
 }
-
 header li {
   float: right;
   font-size: 1.2em;
 }
-
 header li a {
   text-decoration: none;
   display: block;
@@ -45,12 +47,11 @@ header li a {
   padding: 18px 16px;
 }
 #logo {
-  font-family: "Dancing Script", arial;
+  font-family: "DancingScript", arial;
   font-weight: bold;
   float: left;
 }
 /* ..............MODIFICATION DE L'IMAGE PRINCIPALE..................... */
-
 #imageprincipale {
   padding-top: 60px;
   background: url(photos/house.jpg) no-repeat fixed 50% 50%;
@@ -58,7 +59,7 @@ header li a {
   height: 799px;
 }
 h1 {
-  font-family: "Dancing Script", arial;
+  font-family: "DancingScript", arial;
   text-align: center;
   color: antiquewhite;
   font-size: 6em;
@@ -95,7 +96,7 @@ h3 {
   padding: 30px 10%;
 }
 .imgprestations h4 {
-  font-family: "dancing script", arial;
+  font-family: "Dancing Script", arial;
   text-align: center;
   font-size: 1.8em;
   margin: 15px;
@@ -158,7 +159,7 @@ button {
   padding: 15px 30px;
   margin: 1px 0;
   font-size: 1.2em;
-  font-family: "Advent Pro", Sans-serif;
+  font-family: "Advent_Pro", Sans-serif;
   border-radius: 8px;
 }
 textarea {
@@ -196,8 +197,8 @@ button:hover {
 }
 #icons a {
   display: inline-block;
-  margin: 0 15px;
-  font-size: 1.3em;
+  margin: 0 5px;
+  font-size: 1.2em;
   color: #fffae1;
 }
 
