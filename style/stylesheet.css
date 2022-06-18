@@ -197,12 +197,13 @@ button:hover {
 }
 #icons a {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 10px;
   font-size: 1.2em;
   color: #fffae1;
 }
 
 #icons a:hover {
-  transform: scale(1.5);
+  color: #107f97;
+  transform: scale(2.5);
   transition: 0.1s;
 }
